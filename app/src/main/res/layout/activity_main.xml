@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/calculator_icon"
+        android:contentDescription="@string/calculator_icon" />
+
+    <EditText
+        android:id="@+id/edit_text_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_value"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        android:backgroundTint="@color/light_gray"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edit_text_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_percentage"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        android:backgroundTint="@color/light_gray"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+

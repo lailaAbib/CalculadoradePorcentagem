@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoradePorcentagem</string>
+    <string name="calculator_icon">Calculator Icon</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="enter_percentage">Enter Percentage</string>
+    <string name="calculate">Calculate</string>
+
+</resources>
